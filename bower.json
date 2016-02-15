@@ -1,0 +1,48 @@
+{
+    "name": "node-exp",
+    "description": "",
+    "main": "index.js",
+    "authors": [
+    "Luis Blanco"
+  ],
+    "license": "MIT",
+    "keywords": [
+    "NPM",
+    "NodeJS",
+    "Express",
+    "Web",
+    "Application"
+  ],
+    "moduleType": [],
+    "homepage": "",
+    "private": true,
+    "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "lib"
+  ],
+    "dependencies": {
+        "bootstrap": "^3.3.6",
+        "font-awesome": "^4.5.0"
+    },
+    "overrides": {
+        "bootstrap": {
+            "main": [
+                "dist/js/bootstrap.js",
+                "dist/css/bootstrap.css",
+                "less/bootstrap.less"
+            ]
+
+        },
+        "font-awesome": {
+            "main": [
+                "less/font-awesome.less",
+                "css/font-awesome.min.css",
+                "scss/font-awesome.scss"
+            ]
+        }
+    }
+}
